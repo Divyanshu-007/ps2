@@ -1,3 +1,6 @@
+/* body{
+    overflow: hidden;
+} */
 .instruMain {
     display: flex;
     height: 100vh;
@@ -24,7 +27,7 @@
 }
 
 .content {
-    height: 56vh;
+    height: fit-content;
     width: 26vw;
     display: flex;
     flex-direction: column;

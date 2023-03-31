@@ -6,65 +6,43 @@ const AboutUs = () => {
         <>
             <Navbar home={true} />
             <div className="AboutMain">
-                <img className="landingBg1" src="../assets/bg4.jpg" alt="" />
-                <img className="landingBg2" src="../assets/bg1.png" alt="" />
+                {/* <img className="landingBg1" src="../assets/bg4.jpg" alt="" /> */}
+                {/* <img className="landingBg2" src="https://t3.ftcdn.net/jpg/02/34/60/16/240_F_234601686_hDxMeDtngV15G49S8nCSkwAR8DSwGgvn.jpg" alt="" /> */}
                 <div className="aboutContainer">
                     <div className="aboutFlexContainer">
                         <div className="aboutHeadingContainer">
                             <h1>Our Vision</h1>
                         </div>
                         <div className="aboutParagraph">
-                            <p>Our financial broking company is built on a foundation of integrity, professionalism, and excellence in service. We understand that each client has unique financial needs and goals, and we work diligently to provide tailored solutions that meet those needs.
+                            <p>NSE Group has been constantly working to improve the financial wellbeing of people at large through a committed approach to offer investment products that suits varied needs of people. It has improved access to financial markets for people across the country by introducing transparent and efficient systems, improved safety measures for investors, empowering investors through awareness and education on financial planning, investor protection and investment related issues. Besides this, NSE Group has continuously endeavoured to integrate sus to create a system that benefits both businesses and investors, while promoting economic growth and stability. This is achieved through transparent and efficient markets, effective regulation, and a commitment to long-term value creation. The stock market is a platform for buying and selling shares of publicly traded companies. It plays a critical role in the global economy by providing businesses with access to capital and investors with opportunities to grow their wealth.
 
-We also understand the importance of educating our clients on the various investment options available to them, so they can make informed decisions about their finances. Our team of experts is always available to answer any questions our clients may have and to provide guidance throughout the investment process.
+The stock market can be volatile, with prices constantly fluctuating based on a variety of factors such as economic indicators, company performance, geopolitical events, and investor sentiment. While it can offer the potential for high returns, it also involves significant risk, and investors must carefully evaluate their investment decisions.
 
-At our company, we believe in building long-term relationships with our clients, based on trust and mutual respect. We strive to be proactive in our approach, regularly reviewing our clients' portfolios to ensure they remain aligned with their goals and risk tolerance.
 
-Additionally, we place a high value on giving back to the community and supporting charitable causes. We believe that being socially responsible is an integral part of our business, and we are committed to making a positive impact on the world around us.
 
-Overall, our vision is to be a leading financial broking company that offers exceptional service and innovative investment solutions to our clients. We are dedicated to helping our clients achieve financial success and security, and we are proud to be a trusted partner on their financial journey.</p>
+
+
+</p>
                         </div>
                         <div className="aboutServicesHeading">
                             <h1>Our Services :</h1>
                         </div>
                         <div className="aboutServicesPara">
-                            <p>Financial broking companies provide a range of services to help clients invest in various financial instruments such as stocks, bonds, and cryptocurrencies:</p>
-                        </div>
+                            <p>Registered with Central Depository Service (India) Ltd (CDSL), the depository arm of Suresh Rathi offers various Depository Services to its clients. State of the art technology ensures that our Depository is always convenient, dependable, and secure for any entity involved with the depository. 
+Our customer-centric account schemes have been designed keeping in mind the investment psyche of our clients. Your DP account with us takes care of your Depository needs like dematerialization, rematerialisation and pledging of shares. 
+Clients are also offered with ‘easi’ which allows them to access the demat account through internet. Inforproducts, which allow investors to track the performance of a group of stocks. Index products can be used as a benchmark for portfolio performance or as the basis for investment strategies.
 
-                        <div className="aboutServicesHeading">
-                            <h1>Stocks</h1>
-                        </div>
-
-                        <div className="aboutServicesPara">
-                            <p> A stock, also known as a share or equity, represents ownership in a company. Financial broking companies provide services that allow clients to buy and sell stocks on different stock exchanges. They also provide research and analysis on stocks, which helps clients make informed investment decisions.</p>
-                        </div>
-                        <div className="aboutExploreServices">
-                            <a href="/learn">Explore our services...</a>
-</div>
-
-                            <div className="aboutServicesHeading">
-                            <h1>Bonds</h1>
-                        </div>
-
-                        <div className="aboutServicesPara">
-                            <p> A bond is a fixed income investment that represents a loan made by an investor to a borrower, typically a government or corporation. Financial broking companies provide services that allow clients to buy and sell bonds, and also offer research and analysis on bonds.</p>
-                        </div>
-                        <div className="aboutExploreServices">
-                            <a href="/learn">Explore our services...</a>
-</div>
+Overall, the stock market plays a critical role in the global economy by providing a platform for capital raising, trading, price discovery, transparency, and indexing. These services benefit investors, companies, and the broader economy by promoting growth, innovation, and stability.
 
 
-                            <div className="aboutServicesHeading">
-                            <h1>Crypto</h1>
-                        </div>
 
-                        <div className="aboutServicesPara">
-                            <p> A stock, also known as a share or equity, represents ownership in a company. Financial broking companies provide services that allow clients to buy and sell stocks on different stock exchanges. They also provide research and analysis on stocks, which helps clients make informed investment decisions.</p>
+
+
+</p>
                         </div>
-                        <div className="aboutExploreServices">
-                            <a href="/learn">Explore our services...</a>
-                        </div>
+                      
                     </div>
+
                 </div>
             </div>
         </>

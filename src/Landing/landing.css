@@ -18,8 +18,9 @@
 .landingMsg{
     margin: auto 0;
     padding: 0 5vw;
-    font-size: 4rem;
+    font-size: 5rem;
     word-spacing: 2vh;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .landingBg{
@@ -49,4 +50,5 @@
     left: 45vw;
     height: 66vh;
     width: 50vw;
+    border-radius: 100%;
 }

@@ -1,58 +1,51 @@
 import React from "react";
 import './tradingInstruments.css';
-import { Link } from "react-router-dom";
 const TradingInstruments = () => {
     return(
         <>
             <div className="tradingInstrumentsMain">
                 <div className="InstrumentBox">
                     <div className="instrumentBoxHeading">
-                        <h1>Stocks</h1>
+                        <h1>Stock</h1>
                     </div>
                     <div className="instrumentBoxDescription">
-                        <p>Are you looking for a way to invest in a growing company with a promising future? Look no further than StonksUp! Our company has a proven track record of success, and we're poised for even greater growth in the coming years. But don't just take our word for it - do your own research and see for yourself why StonksUp is a great investment opportunity. We're confident that once you do, you'll be eager to invest in our company and join us on this exciting journey.
-
-So why wait? Invest in StonksUp stock today and start building your portfolio with a company that has a bright future ahead!</p>
+                        <p>In finance, stock (also capital stock) consist of all the shares by which ownership of a corporation or company is divided.[1] (Especially in American English, the word "stocks" is also used to refer to shares.)[1][2] A single share of the stock means fractional ownership of the corporation in proportion to the total number of shares. This typically entitles the shareholder (stockholder) to that fraction of the company's earnings, proceeds from liquidation of assets (after discharge of all senior claims such as secured and unsecured debt),[3] or</p>
                     </div>
-                    <div className="instrumentBoxButton">
+                    {/* <div className="instrumentBoxButton">
                         <h2>Proceed to instrument page</h2>
-                        <button><Link to="/learn">GO</Link></button>
-                    </div>
+                        <button>Go</button>
+                    </div> */}
                 </div>
                 <div className="InstrumentBox">
                     <div className="instrumentBoxHeading">
-                        <h1>Heading</h1>
+                        <h1>Bond</h1>
+                        
                     </div>
                     <div className="instrumentBoxDescription">
-                        <p>Looking for a stable and secure investment opportunity? Consider buying bonds in StonksUp! Our company offers a range of high-quality bonds that provide a reliable source of income and steady returns. 
-                        Investing in bonds can also provide peace of mind, as they are typically less volatile than stocks and offer a predictable income stream. And with StonksUp, you can be sure that your investment is in good hands, as we have a strong financial position and a commitment to responsible investing.
-
-So why not invest in our bonds today and start earning a steady income while preserving your capital? With StonksUp, you can invest with confidence and enjoy the benefits of a stable and secure investment opportunity.
-                        </p>
+                        <p>The bond market (also debt market or credit market) is a financial market where participants can issue new debt, known as the primary market, or buy and sell debt securities, known as the secondary market. This is usually in the form of bonds, but it may include notes, bills, and so on for public and private expenditures. The bond market has largely been dominated by the United States, which accounts for about 39% of the market. A stocks. The percentage of interest is fixed in advance. Bonds are rated by credit rating agencies such as Moody’s and Standard and Poor to help investors.</p>
                     </div>
-                    <div className="instrumentBoxButton">
+                    {/* <div className="instrumentBoxButton">
                         <h2>Proceed to instrument page</h2>
-                        <button><Link to="/learn">GO</Link></button>
-                    </div>
+                        <button>Go</button>
+                    </div> */}
                 </div>
                 <div className="InstrumentBox">
                     <div className="instrumentBoxHeading">
-                        <h1>Crypto</h1>
+                        <h1>Crypto Currency</h1>
                     </div>
                     <div className="instrumentBoxDescription">
-                        <p>Looking to invest your money in a modern and secure way? Look no further than cryptocurrencies! Cryptocurrencies, such as Bitcoin and Ethereum, offer a decentralized and peer-to-peer network, ensuring that your transactions are secure and private. With cryptocurrencies, you can make fast, low-cost transactions without the need for intermediaries like banks. Plus, the value of cryptocurrencies has steadily increased over time, making them a smart investment choice for those looking to diversify their portfolios. So why wait? Start investing in cryptocurrencies today and reap the benefits of this exciting and innovative technology.</p>
+                        <p>A cryptocurrency, crypto-currency, or crypto is a digital currency designed to work as a medium of exchange through a computer network that is not reliant on any central authority, such as a government or bank, to uphold or maintain it.[2] It is a decentralized system for verifying that the parties to a transaction have the money they claim to have, eliminating the need for traditional intermediaries, such as banks, when funds are being transferred between two entities.[3]
+
+Iies in the traditional sense, and while vanot own shares of the stock invested in but own a piece of the fund. Furthermore, mutual funds are usually managed by fund managers in financial corporations. Once an investor purchases a fund, there is no control over what goes in or out of the fund. Therefore, there is no investment in a particular stock or bond but a combination of various assets. There is also a fee or commission to be paid.</p>
                     </div>
-                    <div className="instrumentBoxButton">
+                    {/* <div className="instrumentBoxButton">
                         <h2>Proceed to instrument page</h2>
-                        <button><Link to="/crypto">GO</Link></button>
-                    </div>
+                        <button>Go</button>
+                    </div> */}
                 </div>
                 
             </div>
         </>
     );
 }
-
-
 export default TradingInstruments;
-

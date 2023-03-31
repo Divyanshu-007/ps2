@@ -56,8 +56,8 @@ const Navbar = (props) => {
 
                 { loggedIn ? (
           <>
-            <div className="NavSignIn NavDash das"> <Link to='/Dashboard' > Dashboard </Link></div>
-            <div className=" NavSignIn NavDash" onClick={handleLogout}> Logout </div>
+            <div className="NavSignIn NavDash NavPadding"> <Link to='/Dashboard' > Dashboard </Link></div>
+            <div className=" NavSignIn NavDash NavPadding" onClick={handleLogout}> Logout </div>
           </>
         ) :(
                 <div className="NavSignIn">
